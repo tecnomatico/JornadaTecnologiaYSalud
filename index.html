@@ -49,7 +49,7 @@
 			<!-- Cualquier elemento dentro de esta seccion sera mostrada como un slide -->
 			<div class="slides">
 				<section>
-					<img class="nada" style="margin:32px 0px 23px -32px" src="images/logo.png">
+					<img class="nada" style="margin:70px 0px 23px -32px" src="images/logo.png">
 					<h1 style="font-size:400%">#SITUMO</h1>
 					<h3 class="inverse" style="font-size:120%">Sistema de Turnos Médicos Online</h3>
 					<p style="font-size:120%">
@@ -58,15 +58,16 @@
 				</section>
 				<section>
 					<section>
-						<h2>¿De que vamos a hablar?</h2><br>
+						<h2 style="margin-top:50px">¿De que vamos a hablar?</h2><br>
 						<h2><span>Proyecto</span></h2>
-						<h3 style="margin-top:32px" class="inverse">Basado en la Cooperación para su Desarrollo</h3>
+						<h3 style="margin-top:32px" class="inverse">basado en la Cooperación para su Desarrollo</h3>
 					</section>
 					<section data-transition="linear" data-background="#ADDD00" data-background-transition="zoom">
 						<h2><span style="font-size:80%">Objetivos de la Presentación</span></h2>
 						<ol>
-							<li class="fragment" style="font-size:130%; color:#633825"><em>Exponer la filosofía <b>> Cooperativa Informática</b></em></li>
-							<li class="fragment" style="font-size:130%; color:#633825"><em>Describir el contexto <b>> Sistema + Herramientas</b></em></li>
+							<li class="fragment" style="font-size:130%; color:#633825; line-height:125%"><em>Exponer la filosofía <b>> Cooperativa Informática</b></em></li>
+							<li class="fragment" style="font-size:130%; color:#633825; line-height:125%"><em>Describir el contexto de desarrollo<b>> SiTuMO Web</b></em></li>
+							<li class="fragment" style="font-size:130%; color:#633825; line-height:125%"><em>¿Cómo colaborar? <b>> Plataformas + Herramientas</b></em></li>
 						</ol>
 					</section>
 				</section>
@@ -77,71 +78,218 @@
 						<h1 style="font-size:150%" class="inverse">&nbsp;Cooperativa Informática&nbsp;</h1>
 					</section>
 					<section>
-						<h2>Como nos iniciamos</h2>
-						<img src="images/internet_1.png">
+						<h2>Breve historia...</h2>
+						<img width="90%" src="images/grupo.jpg">
 					</section>
 					<section>
-						<h2><span2>Organización</span2><br>
-							Posee una estructura<br>sólida para su contenido.
-							<aside class="notes">Un CMS está preparado para organizar eficientemente los contenidos de su sitio en secciones y categorías, lo que facilita la navegabilidad para los usuarios y permite crear una estructura sólida, ordenada y sencilla para los administradores. Desde el panel administrador puede crear, editar y borrar las secciones y categorías de su sitio de la manera en que más le convenga.</aside>
-						</h2>
+						<h2>¿Qué es una cooperativa?</h2>
+						<blockquote style="width:100%; padding:25px; margin-top:32px" cite="http://es.wikipedia.org/wiki/Cooperativa">
+							&ldquo;Una cooperativa es una <b>asociación de personas</b> que se han unido voluntariamente para formar una organización democrática cuya <b>administración y gestión debe ser acordada por sus socios</b>.<br>Su intención es hacer frente a las <b>necesidades y aspiraciones económicas, sociales y culturales</b> comunes a todos<br>mediante una <b><u>empresa</u></b>.&rdquo;
+						</blockquote>
+						<h3 style="text-align:right; margin: 20px 5px"><i>Wikipedia</i></h4>
+					</section>
+					<section>
+						<h2>¿Por qué una cooperativa?</h2>
+						<blockquote style="width:100%; padding:25px; margin-top:32px; font-size:120%; line-height:120%">
+							&ldquo;El cooperativismo promueve formas de organización<br>que <b>potencian el trabajo colaborativo</b> y mejora, según nuestro modo de ver, los procesos de desarrollo.<br>Además somos empresas que nos interesamos por el<br><b>desarrollo de la comunidad</b> en la que vivimos.&rdquo;
+						</blockquote>
+						<h3 style="text-align:right; margin: 20px 5px"><i>tecnomati.co</i></h4>
+					</section>
+					<section>
+						<h1 style="font-size:150%" class="inverse">&nbsp;Principios y valores&nbsp;</h1>
+						<h2 style="font-size:175%; line-height:110%">Constituyen las reglas básicas de nuestro funcionamiento.</h2>
+					</section>
+					<section>
+						<h2>Principios cooperativos</h2>
+						<ul>
+							<li>Libre adhesión</li>
+						    <li>Control democrático de los socios</li>
+						    <li>Participacion económica de los socios</li>
+						    <li>Autonomía e independencia</li>
+						    <li>Educación, entrenamiento e información</li>
+						    <li>Cooperación entre cooperativas</li>
+						    <li>Compromiso con la comunidad</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Valores cooperativos</h2>
+						<ul>
+							<li><b>Ayuda mutua:</b> trabajar juntos</li>
+						    <li><b>Responsabilidad social</b></li>
+						    <li><b>Democracia:</b> toma de decisiones colectivas</li>
+						    <li><b>Igualdad</b> tanto en los derechos como en deberes</li>
+						    <li><b>Equidad:</b> justa distribución de los excedentes</li>
+						    <li><b>Solidaridad:</b> apoyarse en los problemas</li>
+						    <li><b>Honestidad y transparencia</b></li>
+						    <li><b>Esfuerzo propio:</b> dar lo mejor de cada uno</li>
+						</ul>
+					</section>	
+					<section>
+						<h2 style="font-size:160%;">&nbsp;Cooperativismo y Software Libre&nbsp;</h2>
+						<h2 style="font-size:175%; line-height:100%"><span2>Compartimos el código...<br>¿Por qué no compartimos<br>el rédito económico de<br>trabajar sobre este?</span2></h2>
+						<ul>
+							<li class="fragment">Dejar de ser meros espectadores del Software Libre</li>
+							<li class="fragment">Contribuir con nuestra Soberanía Tecnológica</li>
+						</ul>
 					</section>
 				</section>
 
 				<section>
 					<section>
 						<h2><span style="font-size:110%">Contexto de desarrollo</span></h2>
-						<h1 style="font-size:150%" class="inverse">&nbsp;Sistema + Herramientas&nbsp;</h1>
+						<h1 style="font-size:150%" class="inverse">&nbsp;SiTuMO en la Web&nbsp;</h1>
 					</section>
 					<section>
-						<h2>¿Qué son los CMS?</h2>
-						<blockquote style="width:100%; padding:25px" cite="http://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_contenidos">
-							&ldquo;Un CMS es un programa que permite crear una <b>estructura de<br>soporte (framework)</b> para la creación y administración de<br>contenidos, principalmente páginas web...<br>Consiste en una interfaz que controla una o varias<br><b>bases de datos</b> donde se aloja el contenido del sitio web.<br>El sistema permite manejar de manera independiente<br><b>el contenido y el diseño</b>.&rdquo;
-						</blockquote>
-						<h3 style="text-align:right; margin: 20px 5px"><i>Wikipedia</i></h4>
-					</section>	
-					
-					
+						<h2>¿Cuál es el problema?</h2>
+						<img width="90%" src="images/cola1.jpg">
+					</section>
 					<section>
-						<h1 style="font-size:150%" class="inverse">&nbsp;Implementaciones&nbsp;</h1>
-						<ul>
-							<li>Comercio Electrónico.</li>
-							<li>Portales de Noticias.</li>
-							<li>Comunidades Sociales.</li>
-							<li>Foros de debates.</li>
-							<li>Sitios Web Personales.</li>
-							<li>Sitios Web Empresariales.</li>
+						<h2>Interminables colas</h2>
+						<img width="90%" src="images/cola2.jpg">
+					</section>
+					<section>
+						<h2 style="font-size:170%">Clínicas, hospitales, consultorios</h2>
+						<img width="90%" src="images/cola3.jpg">
+					</section>
+					<section>
+						<h2>¿Cuál es la Solución?</h2>
+						<h1 style="font-size:150%; padding: 20px 50px; margin-top:10px; line-height:120%" class="inverse">Disponer la tecnología<br>para la Salud!!!</h1>
+					</section>
+					<section>
+						<h2 style="font-size:400%; margin-top:40px"><b>Si.Tu.M.O.</b></h2>
+						<img class="nada" style="margin:32px 0px 32px -32px" src="images/logo.png">
+						<h1 class="inverse" style="font-size:120%;">&nbsp;Sistema de Turnos Médicos Online&nbsp;</h1>
+						<p style="font-size:120%">
+					</section>
+					<section>
+						<h1 class="inverse" style="font-size:200%;">&nbsp;Medicos&nbsp;</h1>
+						<ul style="font-size:140%; line-height:120%">
+							<li class="fragment" style="text-transform: uppercase; margin-top:20px">Gestión de Horarios de atención</li>
+								<ul style="font-size:80%; line-height:120%; margin-left:75px">
+									<li class="fragment">Establecer los días y franjas horarias</li>
+									<li class="fragment">Establecer licencias y feriados (no laborales)</li>
+								</ul>
+							<li class="fragment" style="text-transform: uppercase; margin-top:20px">Gestión de Turnos de Pacientes</li>
+								<ul style="font-size:80%; line-height:120%; margin-left:75px">
+									<li class="fragment">Crear cuentas de usuario para sus pacientes</li>
+									<li class="fragment">Reservar un turno, modificarlo o cancelarlo</li>
+									<li class="fragment">Imprimir el comprobante del turno</li>
+									<li class="fragment">Imprimir todos los turnos concedidos para un día</li>
+								</ul>
 						</ul>
 					</section>
-					
 					<section>
-						<h2>¿Cómo paro XAMPP?</h2>
-						<p>
-							Para parar XAMPP simplemente ejecuta este comando:
-						</p>
-						<pre><code data-trim contenteditable>
-							sudo /opt/lampp/lampp stop
-						</code></pre>
-						<p>
-							Deberías ver ahora algo como esto en tu pantalla:
-						</p>
-						<pre><code data-trim contenteditable>
-	Stopping XAMPP 1.8.2...
-	LAMPP: Stopping Apache...
-	LAMPP: Stopping MySQL...
-	LAMPP stopped.
-						</code></pre>
+						<h1 class="inverse" style="font-size:200%;">&nbsp;Medicos&nbsp;</h1>
+						<ul style="font-size:140%; line-height:120%">
+							<li class="fragment" style="text-transform: uppercase; margin-top:20px">Gestión del Perfil Médico</li>
+								<ul style="font-size:80%; line-height:120%; margin-left:75px">
+									<li class="fragment">Establecer las Especialidades Médicas</li>
+									<li class="fragment">Establecer las Obras Sociales con las que trabaja</li>
+									<li class="fragment">Configurar los datos relacionados a su cuenta</li>
+									<li class="fragment">Cargar un Curriculum Vitae Profesional</li>
+								</ul>
+							</li>
+							<li class="fragment" style="text-transform: uppercase; margin-top:20px">Generación de Reportes varios</li>
+								<ul style="font-size:80%; line-height:120%; margin-left:75px">
+									<li class="fragment">Reportes de cancelación de turnos por Pacientes.</li>
+									<li class="fragment">Estadística sobre la participación de Pacientes.</li>
+								</ul>
+							</li>
+						</ul>
 					</section>
-
 					<section>
-						<img class="nada" src="images/preguntas.png"><br>
-						<h2 class="inverse"  style="font-size:200%; padding:32px">¿PREGUNTAS?</h2>
+						<h1 class="inverse" style="font-size:200%;">&nbsp;Pacientes&nbsp;</h1>
+						<ul style="font-size:140%; line-height:120%">
+							<li class="fragment" style="text-transform: uppercase; margin-top:20px">Gestión de la Cuenta de Usuario</li>
+								<ul style="font-size:80%; line-height:120%; margin-left:75px">
+									<li class="fragment">Registrarse con un correo electrónico</li>
+									<li class="fragment">Configurar los datos relacionados a su cuenta</li>
+									<li class="fragment">Establecer las Obras Sociales que posee</li>
+								</ul>
+							</li>
+							<li class="fragment" style="text-transform: uppercase; margin-top:20px">Gestión de Turnos Médicos</li>
+								<ul style="font-size:80%; line-height:120%; margin-left:75px">
+									<li class="fragment">Buscar Médicos por Nombre y Apellido, Especialidad, Obra Social y Franjas Horarias</li>
+									<li class="fragment">Reservar un turno, modificar o cancelarlo</li>
+									<li class="fragment">Imprimir el comprobante del turno médico</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h1 class="inverse" style="font-size:200%;">&nbsp;Instituciones&nbsp;</h1>
+						<ul style="font-size:140%; line-height:120%; text-transform: uppercase;">
+							<li class="fragment" style="margin-top:20px">Gestión de Cuentas de Médicos</li>
+							<li class="fragment" style="margin-top:10px">Gestión de Cuentas de Pacientes</li>
+							</li>
+							<li class="fragment" style="margin-top:10px">Gestión de Horarios de atención</li>
+							<li class="fragment" style="margin-top:10px">Gestión de Turnos de Pacientes</li>
+							<li class="fragment" style="margin-top:10px">Generación de Reportes varios</li>
+						</ul>
+					</section>	
+					<section>
+						<h2 style="font-size:200%;">Pantalla de Inicio (desktop)</h2>
+						<img src="images/inicio1.jpg">
+					</section>
+					<section>
+						<h2 style="font-size:200%;">Reserva de Turnos (desktop)</h2>
+						<img src="images/turno1.jpg">
+					</section>
+					<section>
+						<h2 style="font-size:200%;">Reserva de Turnos (mobile)</h2>
+						<img src="images/turno2.jpg">
+					</section>
+					<section>
+						<h1 style="font-size:150%; padding: 23px" class="inverse">Estado actual del proyecto</h1>
+						<ul style="font-size:120%; line-height:180%;">
+							<li>Estructura base: <b style="color:#000099">70%</b></li>
+							<li>Este proyecto para su desarrollo requiere:</li>
+							<ul style="font-size:90%; line-height:120%; margin-left:50px">
+								<li><b>Expertos</b> > <i>Ideas, sugerencias, conocimiento</i></li>
+								<li><b>Programadores</b> > <i>Codear y aprender</i></li>
+								<li><b>Testers</b> > <i>Con ganas de "romper algunas cosas"</i></li>
+							</ul>	
+						</ul>
 					</section>
 				</section>
+
 				<section>
-					<h2><span>FIN</span></h2>
+					<section>
+						<h2><span style="font-size:110%">¿Cómo colaborar?</span></h2>
+						<h1 style="font-size:150%" class="inverse">&nbsp;Plataformas y Herramientas&nbsp;</h1>
+					</section>
+					<section>
+						<h2 style="font-size:200%;">Entorno de Desarrollo Web</h2>
+						<img src="images/xampp.png">
+					</section>
+					<section>
+						<h2 style="font-size:200%;">Framework de Desarrollo</h2>
+						<img class="nada" src="images/bonfire.jpg">
+					</section>
+					<section>
+						<h2 style="font-size:200%;">Tecnologías adicionales</h2>
+						<img width="120%" src="images/extras.jpg">
+					</section>
+					<section>
+						<h2 style="font-size:200%;">Control de Versiones</h2>
+						<img width="120%" src="images/git_github.jpg">
+					</section>
+					<section data-transition="linear" data-background="#ADDD00" data-background-transition="zoom">
+						<h1 style="font-size:150%;padding: 20px 50px; margin-top: 32px; margin-bottom:60px; line-height:120%" class="inverse">Código fuente y contacto</h1>
+						<h2 style="font-size:120%;"><span2>https://github.com/tecnomatico/SiTuMO</span2></h2>
+						<h2 style="font-size:223%; padding: 20px 50px; margin-top:10px; line-height:120%"><span2>situmo@tecnomati.co</span2></h2>
+					</section>
+				</section>
+
+				<section>
+					<img class="nada" src="images/preguntas.png"><br>
+					<h2 class="inverse" style="font-size:200%; padding:32px">¿PREGUNTAS?</h2>
+				</section>
+				
+				<section>
+					<h2 style="margin-top:100px"><span>FIN</span></h2>
 					<h1 style="font-size:200%">MUCHAS GRACIAS</h1>
-					<h3 class="inverse">&nbsp;tecnomati.co&nbsp;</h3>
+					<h2 style="font-size:150%; margin-top:32px; padding: 15px" class="inverse"><b>&nbsp;www.tecnomati.co&nbsp;</b></h2>
 				</section>
 
 			</div>
